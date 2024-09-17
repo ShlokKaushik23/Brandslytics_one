@@ -1,14 +1,13 @@
-:root {
 
-  --font-cabinetgrotesk: "Cabinet Grotesk Medium";
-  --font-cabinetgrotesk-reg: "Cabinet Grotesk Regular";
-  --font-cabinetgrotesk-light: "Cabinet Grotesk Light";
-  --font-satoshi-light: "Satoshi Light";
-  --font-satoshi-reg: "Satoshi";
-
-
+@font-face {
+  font-family: 'CabinetGrotesk-Thin';
+  src: url('../CabinetGrotesk-Light.woff2') format('woff2'),
+       url('../CabinetGrotesk-Light.woff') format('woff'),
+       url('../CabinetGrotesk-Light.ttf') format('truetype');
+  font-weight: 100;
+  font-display: swap;
+  font-style: normal;
 }
-
 
 *{
   margin: 0;
@@ -197,7 +196,7 @@ main {
   letter-spacing: 4px;
   color: var(--color-secondary);
   font-weight: normal;
-  font-family: var(--font-cabinetgrotesk-light);
+  font-family: 'CabinetGrotesk-Thin';
   margin: 0;
   padding: 0;
   
@@ -1100,7 +1099,7 @@ margin-bottom: 48px;
     z-index: 1;
     color: #121212;
     font-family: var(--font-cabinetgrotesk-reg) !important;
-
+    font-family: var(--font-cabinetgrotesk-light);
   }
 
    /* ===== CATEGORY AND FILTER ====== */
@@ -1493,6 +1492,7 @@ grid-row-gap: 0px;
   .header {
     padding: 0 4.688vw;
     background-color: rgba(0, 0, 0, 0.1);
+    font-family: var(--font-cabinetgrotesk-reg) !important;
     
   }
 
@@ -1597,7 +1597,8 @@ grid-row-gap: 0px;
     z-index: 1;
     font-weight: normal;
     color: #121212;
-    font-family: var(--font-cabinetgrotesk-reg) !important;
+    font-family: 'CabinetGrotesk-Thin'
+    
   }
 
 
