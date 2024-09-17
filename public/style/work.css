@@ -1060,6 +1060,8 @@ margin-bottom: 48px;
   .header .navbar .nav_section.about .nav_list li {
     color: var(--color-white);
     font-weight: 700;
+  font-family: var(--font-satoshi-reg);
+
   }
 
   .header .navbar .nav_section .nav_list li.icon_active {
@@ -1518,7 +1520,7 @@ grid-row-gap: 0px;
   }
 
   .header .navbar .nav_section .nav_list li {
-    color: var(--color-white);
+    color: #fff;
     margin: 0;
     /* padding: inherit; */
     padding: 4.344vw 2.344vw;
@@ -1527,6 +1529,8 @@ grid-row-gap: 0px;
   .header .navbar .nav_section.about .nav_list li {
     color: var(--color-white);
     font-weight: var(--w-500);
+  font-family: var(--font-satoshi-reg);
+
 
   } 
   .header .navbar .nav_section .nav_list li.icon_active {
@@ -1574,6 +1578,7 @@ grid-row-gap: 0px;
   .hero .heading {
     font-size: 6.203vw;
     z-index: 1;
+    font-weight: normal;
     color: #121212;
     font-family: var(--font-cabinetgrotesk-reg) !important;
   }
@@ -1605,6 +1610,7 @@ grid-row-gap: 0px;
   .category_section.sticky .filter_button button {
 background-color: transparent;
 color: #121212;
+font-family: var(--font-satoshi-reg);
   }
 
   .category_section .category_button {
@@ -1765,11 +1771,10 @@ grid-row-gap: 0px;
     font-size: 5.5vw;
   }
   .container .heading_section h1 {
-    padding: 4.688vw 0 2.688vw 4.688vw;
-
-    
-    font-size: var(--font-cabinetgrotesk-reg) !important;
-    
+    padding: 4.688vw 0 4.688vw 4.688vw;
+    font-family: var(--font-cabinetgrotesk-reg) !important;
+    font-size: 5.5vw;
+    font-weight: 500;
   }
 
 
@@ -1786,17 +1791,17 @@ grid-row-gap: 0px;
   flex-direction: column;
    gap:12px;
 }
-.exp_container .content_section .heading {
-  font-family: var(--font-cabinetgrotesk-reg);
-  font-weight: bold;
-  font-size: 2.5vw;
+.exp_container .content_section .heading  {
+  font-family: var(--font-cabinetgrotesk-reg) !important;
+  font-weight: normal;
+  font-size: 5vw;
   margin-bottom: 4px;
 
 }
 
 .exp_container .content_section .description{
   font-family: var(--font-satoshi-reg);
-  font-size: 2.25vw;
+  font-size: 4vw;
 }
 
 
@@ -1805,16 +1810,23 @@ grid-row-gap: 0px;
 
 .card-list .card-item {
 
-   font-size: 2vw;
+  font-size: 4vw;
 }
 .card-list .card-item .user-image {
   width: 72px;
   height: 72px;
-  margin-bottom: 24px;
+  margin-bottom:12px;
+  font-size: 3vw;
  
 }
+.card-list .card-item  .user-name {
+  font-style: var(--font-cabinetgrotesk-reg);
+  font-weight: normal;
+}
 .card-list .card-item .user-profession {
-  font-size: 2.25vw;
+  font-size: 4vw;
+  font-family: var(--font-satoshi-reg);
+  font-weight: normal;
 
 }
 
@@ -1865,7 +1877,6 @@ grid-row-gap: 0px;
     font-size: 5.5vw;
     line-height: 5.5vw;
     font-weight: normal;
-   
       font-family: var(--font-cabinetgrotesk-reg) !important;
   }
   .project_container .filterDiv .project_section .project_details .project_heads .project_subheading {
