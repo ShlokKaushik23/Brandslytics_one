@@ -1,3 +1,14 @@
+:root {
+
+  --font-cabinetgrotesk: "Cabinet Grotesk Medium";
+  --font-cabinetgrotesk-reg: "Cabinet Grotesk Regular";
+  --font-cabinetgrotesk-light: "Cabinet Grotesk Light";
+  --font-satoshi-light: "Satoshi Light";
+  --font-satoshi-reg: "Satoshi";
+
+
+}
+
 
 *{
   margin: 0;
@@ -1453,7 +1464,13 @@ grid-row-gap: 0px;
 
 
 @media screen and (max-device-width: 640px) {
-
+  html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
+  
   #scroll {
     display: none;
   }
