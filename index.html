@@ -1142,30 +1142,7 @@
 <!-- Fancybox JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 
-<script>
-  $(document).ready(function () {
-    // Initialize Fancybox for all video popups
-    $('[data-fancybox^="video"]').fancybox({
-      buttons: [
-        'slideShow',
-        'fullScreen',
-        'thumbs',
-        'close'
-      ],
-      loop: true,
-      infobar: true, // Show infobar for additional information
-      hideScrollbar: false, // Keep scrollbar visible
-      preventCaptionOverlap: true, // Prevent overlap with the caption
-      idleTime: false, // Disable controls fade out
-    });
 
-    // Show the respective video popup when button is clicked
-    $('.watchvideobutton').on('click', function () {
-      var video = $(this).data('video');
-      $('[data-fancybox="' + video + '"]').eq(0).trigger('click');
-    });
-  });
-</script>
 
 <script>
   gsap.registerPlugin(ScrollTrigger);
