@@ -798,17 +798,17 @@ main {
   display: flex;
   /* justify-content: center; */
   align-items: center;
+  /* font-size: 2.5vw; */
   width: 100%;
   
 }
 
 .container .heading_section h1 {
   width: 100%;
-  font-size: 2.5vw;
   font-family: var(--font-cabinetgrotesk-light);
   text-overflow: clip;
-  line-height: 2.5vw;
   font-weight: 900;
+  font-size: 2.5vw;
   padding: 24px 84px ;
 
 }
@@ -953,8 +953,7 @@ margin-bottom: 48px;
 
 
 
-/* For Desktop View */
-@media screen and (min-width: 1440px) {}
+
 
 /* For Tablet View */
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -1085,12 +1084,9 @@ margin-bottom: 48px;
 
   .hero .heading {
     display: block;
-    /* font-size: 6.203vw; */
-    /* padding: 24px 0; */
-    /* margin-top: -10%; */
     z-index: 1;
     color: #121212;
-    font-family: var(--font-cabinetgrotesk-reg);
+    font-family: var(--font-cabinetgrotesk-reg) !important;
 
   }
 
@@ -1285,11 +1281,21 @@ grid-row-gap: 0px;
 
 
   /* ======== HEADING ============ */
+  .container .heading_section {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* font-size: 2.5vw; */
+    width: 100%;
+    font-size: 4vw;
+
+    
+  }
 
   .container .heading_section h1 {
-    font-size: 4vw;
     line-height: 4vw;
     padding-left: 4.688vw;
+    font-size: var(--font-cabinetgrotesk-reg);
   }
 
   /* ===== ACHIEVEMNT SECTIONS ========== */
@@ -1375,7 +1381,7 @@ grid-row-gap: 0px;
   .project_container .filterDiv .project_section .project_details .project_heads .project_heading {
     font-size: 4vw;
     line-height: 4vw;
-    font-family: var(--font-cabinetgrotesk-reg);
+    font-family: var(--font-cabinetgrotesk-reg) !important;
 
   }
 
@@ -1443,10 +1449,7 @@ grid-row-gap: 0px;
 
 }
 
-/* For Mobile Landscape View */
-@media screen and (max-device-width: 640px) and (orientation: landscape) {}
 
-/* For Mobile Phones Portrait or Landscape View */
 @media screen and (max-device-width: 640px) {
 
   #scroll {
@@ -1570,11 +1573,9 @@ grid-row-gap: 0px;
 
   .hero .heading {
     font-size: 6.203vw;
-    /* margin-top: -15%; */
-    /* line-height: 15.203vw; */
     z-index: 1;
     color: #121212;
-    font-family: var(--font-cabinetgrotesk-reg);
+    font-family: var(--font-cabinetgrotesk-reg) !important;
   }
 
 
@@ -1758,6 +1759,65 @@ grid-row-gap: 0px;
   }
 
 
+  
+  /* ======== HEADING ============ */
+  .container .heading_section {
+    font-size: 5.5vw;
+  }
+  .container .heading_section h1 {
+    padding: 4.688vw 0 2.688vw 4.688vw;
+
+    
+    font-size: var(--font-cabinetgrotesk-reg) !important;
+    
+  }
+
+
+  /* ===== ACHIEVEMNT SECTIONS ========== */
+.exp_container {
+  width: 100%;
+  margin: 0 12px;
+  padding: 0 6px;
+  margin-bottom: 24px;
+}
+
+.exp_container .content_section {
+  display: flex;
+  flex-direction: column;
+   gap:12px;
+}
+.exp_container .content_section .heading {
+  font-family: var(--font-cabinetgrotesk-reg);
+  font-weight: bold;
+  font-size: 2.5vw;
+  margin-bottom: 4px;
+
+}
+
+.exp_container .content_section .description{
+  font-family: var(--font-satoshi-reg);
+  font-size: 2.25vw;
+}
+
+
+
+
+
+.card-list .card-item {
+
+   font-size: 2vw;
+}
+.card-list .card-item .user-image {
+  width: 72px;
+  height: 72px;
+  margin-bottom: 24px;
+ 
+}
+.card-list .card-item .user-profession {
+  font-size: 2.25vw;
+
+}
+
   /* ==== PROJECT CARD =========== */
 
   .project_container .filterDiv {
@@ -1805,8 +1865,8 @@ grid-row-gap: 0px;
     font-size: 5.5vw;
     line-height: 5.5vw;
     font-weight: normal;
-    font-family: "Cabinet Grotesk Regular";
-  
+   
+      font-family: var(--font-cabinetgrotesk-reg) !important;
   }
   .project_container .filterDiv .project_section .project_details .project_heads .project_subheading {
     font-size: 4vw;
@@ -1898,7 +1958,7 @@ grid-row-gap: 0px;
   }
   
   .gallery-container::-webkit-scrollbar-thumb {
-    background-color: #E7BF83;
+    background-color: #121212;
     border-radius: 10px;
     
   }
@@ -1931,15 +1991,6 @@ grid-row-gap: 0px;
 
 }
 
-/* For iPhone 4 Portrait or Landscape View */
-@media screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {}
 
-/* For iPhone 5 Portrait or Landscape View */
-@media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {}
-
-/* For iPhone 6 and 6 plus Portrait or Landscape View */
-@media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {}
-
-;
 
 
