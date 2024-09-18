@@ -1997,7 +1997,7 @@ main {
 
   .card-list .card-item .user-name {
     font-family: 'CabinetGrotesk-Light';
-    font-weight: normal;
+    font-weight: 600;
   }
 
   .card-list .card-item .user-profession {
