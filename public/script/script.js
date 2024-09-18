@@ -16,128 +16,112 @@ const galleriesData = [
             "./public/images/projects/metal/metaljewellery_11.webp",
             "./public/images/projects/metal/metaljewellery_12.webp",
 
-
-
         ]
     },
     {
         id: 2,
         images: [
-            "./public/images/projects/02_Proj/project1.JPG",
-            "./public/images/projects/02_Proj/project2.JPG",
-            "./public/images/projects/02_Proj/project3.JPG",
-            "./public/images/projects/02_Proj/project4.JPG",
-            "./public/images/projects/02_Proj/project5.JPG",
-            "./public/images/projects/02_Proj/project6.JPG",
+            "./public/images/projects/02_drapping/drape_8.webp",
+            "./public/images/projects/02_drapping/drape_7.webp",
+            "./public/images/projects/02_drapping/drape_9.webp",
+            "./public/images/projects/02_drapping/drape_11.webp",
+            "./public/images/projects/02_drapping/drape_12.webp",
+            "./public/images/projects/02_drapping/drape_10.webp",
+
 
         ]
     },
     {
         id: 3,
         images: [
-            "./public/images/projects/11_TheForestindoors/Nitish-Jain_The-Forest-Indoors_1.webp",
-            "./public/images/projects/11_TheForestindoors/Nitish-Jain_The-Forest-Indoors_2.webp",
-            "./public/images/projects/11_TheForestindoors/Nitish-Jain_The-Forest-Indoors_3.webp",
-            "./public/images/projects/11_TheForestindoors/Nitish-Jain_The-Forest-Indoors_4.webp",
-            "./public/images/projects/11_TheForestindoors/Nitish-Jain_The-Forest-Indoors_5.webp",
-
-
+            "./public/images/projects/02_drapping/drape_20.webp",
+            "./public/images/projects/02_drapping/drape_19.webp",
+            "./public/images/projects/02_drapping/drape_17.webp",
+            "./public/images/projects/02_drapping/drape_15.webp",
+            "./public/images/projects/02_drapping/drape_16.webp",
+            "./public/images/projects/02_drapping/drape_13.webp",
         ]
     },
     {
         id: 4,
         images: [
-            "./public/images/projects/10_BodySpaceSensing/Nitish-Jain_Body-Space-Sensing_1.webp",
-            "./public/images/projects/10_BodySpaceSensing/Nitish-Jain_Body-Space-Sensing_2.webp",
-            "./public/images/projects/10_BodySpaceSensing/Nitish-Jain_Body-Space-Sensing_3.webp",
-            "./public/images/projects/10_BodySpaceSensing/Nitish-Jain_Body-Space-Sensing_4.webp",
-            "./public/images/projects/10_BodySpaceSensing/Nitish-Jain_Body-Space-Sensing_5.webp",
-
-
+           "./public/images/projects/02_drapping/drape_32.webp",
+            "./public/images/projects/02_drapping/drape_30.webp",
+            "./public/images/projects/02_drapping/drape_26.webp",
+            "./public/images/projects/02_drapping/drape_27.webp",
+        
         ]
     },
     {
         id: 5,
         images: [
-            "./public/images/projects/05_TicklishFruits/Nitish-Jain_Ticklish-Fruits_1.webp",
-            "./public/images/projects/05_TicklishFruits/Nitish-Jain_Ticklish-Fruits_2.webp",
-            "./public/images/projects/05_TicklishFruits/Nitish-Jain_Ticklish-Fruits_3.webp",
-            "./public/images/projects/05_TicklishFruits/Nitish-Jain_Ticklish-Fruits_4.webp",
-            "./public/images/projects/05_TicklishFruits/Nitish-Jain_Ticklish-Fruits_5.webp",
-            "./public/images/projects/05_TicklishFruits/Nitish-Jain_Ticklish-Fruits_6.webp",
-            "./public/images/projects/05_TicklishFruits/Nitish-Jain_Ticklish-Fruits_7.webp",
-            "./public/images/projects/05_TicklishFruits/Nitish-Jain_Ticklish-Fruits_8.webp",
-            "./public/images/projects/05_TicklishFruits/Nitish-Jain_Ticklish-Fruits_9.webp",
-            "./public/images/projects/05_TicklishFruits/Nitish-Jain_Ticklish-Fruits_10.webp",
-            "./public/images/projects/05_TicklishFruits/Nitish-Jain_Ticklish-Fruits_11.webp",
-            "./public/images/projects/05_TicklishFruits/Nitish-Jain_Ticklish-Fruits_12.webp",
-            "./public/images/projects/05_TicklishFruits/Nitish-Jain_Ticklish-Fruits_13.webp",
-
-
+           "./public/images/projects/02_drapping/drape_33.webp",
+            "./public/images/projects/02_drapping/drape_35.webp",
+            "./public/images/projects/02_drapping/drape_36.webp",
+            "./public/images/projects/02_drapping/drape_37.webp",
+            "./public/images/projects/02_drapping/drape_34.webp",
         ]
     },
     {
         id: 6,
         images: [
-            "./public/images/projects/06_a-where-ness/Nitish-Jain_a-where-ness_1.webp",
-            "./public/images/projects/06_a-where-ness/Nitish-Jain_a-where-ness_2.webp",
-            "./public/images/projects/06_a-where-ness/Nitish-Jain_a-where-ness_3.webp",
-            "./public/images/projects/06_a-where-ness/Nitish-Jain_a-where-ness_4.webp",
-            "./public/images/projects/06_a-where-ness/Nitish-Jain_a-where-ness_5.webp",
-            "./public/images/projects/06_a-where-ness/Nitish-Jain_a-where-ness_6.webp",
-            "./public/images/projects/06_a-where-ness/Nitish-Jain_a-where-ness_7.webp",
-            "./public/images/projects/06_a-where-ness/Nitish-Jain_a-where-ness_8.webp",
-            "./public/images/projects/06_a-where-ness/Nitish-Jain_a-where-ness_9.webp",
+           "./public/images/projects/02_drapping/drape_4.webp",
+            "./public/images/projects/02_drapping/drape_3.webp",
+            "./public/images/projects/02_drapping/drape_2.webp",
+            "./public/images/projects/02_drapping/drape_1.webp",
+            "./public/images/projects/02_drapping/drape_6.webp",
+            "./public/images/projects/02_drapping/drape_5.webp",
 
         ]
     },
     {
         id: 7,
         images: [
-            "./public/images/projects/01_Spoonfed/Nitish-Jain_Spoonfed_1.webp",
-            "./public/images/projects/01_Spoonfed/Nitish-Jain_Spoonfed_2.webp",
-            "./public/images/projects/01_Spoonfed/Nitish-Jain_Spoonfed_3.webp",
-            "./public/images/projects/01_Spoonfed/Nitish-Jain_Spoonfed_4.webp",
-            "./public/images/projects/01_Spoonfed/Nitish-Jain_Spoonfed_5.webp",
-            "./public/images/projects/01_Spoonfed/Nitish-Jain_Spoonfed_6.webp",
-            "./public/images/projects/01_Spoonfed/Nitish-Jain_Spoonfed_7.webp",
-            "./public/images/projects/01_Spoonfed/Nitish-Jain_Spoonfed_8.webp",
-            "./public/images/projects/01_Spoonfed/Nitish-Jain_Spoonfed_9.webp",
-            "./public/images/projects/01_Spoonfed/Nitish-Jain_Spoonfed_10.webp",
-            "./public/images/projects/01_Spoonfed/Nitish-Jain_Spoonfed_11.webp",
-            "./public/images/projects/01_Spoonfed/Nitish-Jain_Spoonfed_12.webp",
-            "./public/images/projects/01_Spoonfed/Nitish-Jain_Spoonfed_13.webp",
-
-
-
+            "./public/images/projects/02_drapping/drape_21.webp",
+            "./public/images/projects/02_drapping/drape_22.webp",
+            "./public/images/projects/02_drapping/drape_23.webp",
+            "./public/images/projects/02_drapping/drape_24.webp",
+         
         ]
     },
     {
         id: 8,
         images: [
-            "./public/images/projects/08_Fcilespressobar/Nitish-Jain_Fčil-Espresso-Bar_1.webp",
-            "./public/images/projects/08_Fcilespressobar/Nitish-Jain_Fčil-Espresso-Bar_2.webp",
-            "./public/images/projects/08_Fcilespressobar/Nitish-Jain_Fčil-Espresso-Bar_3.webp",
-            "./public/images/projects/08_Fcilespressobar/Nitish-Jain_Fčil-Espresso-Bar_5.webp",
-            "./public/images/projects/08_Fcilespressobar/Nitish-Jain_Fčil-Espresso-Bar_6.webp",
-            "./public/images/projects/08_Fcilespressobar/Nitish-Jain_Fčil-Espresso-Bar_7.webp",
-            "./public/images/projects/08_Fcilespressobar/Nitish-Jain_Fčil-Espresso-Bar_8.webp",
-            "./public/images/projects/08_Fcilespressobar/Nitish-Jain_Fčil-Espresso-Bar_9.webp",
-            "./public/images/projects/08_Fcilespressobar/Nitish-Jain_Fčil-Espresso-Bar_10.webp",
-            "./public/images/projects/08_Fcilespressobar/Nitish-Jain_Fčil-Espresso-Bar_11.webp",
-            "./public/images/projects/08_Fcilespressobar/Nitish-Jain_Fčil-Espresso-Bar_12.webp",
+            "./public/images/projects/03_digital/digital_1.webp",
+            "./public/images/projects/03_digital/digital_2.webp",
+            "./public/images/projects/03_digital/digital_3.webp",
+            "./public/images/projects/03_digital/digital_4.webp",
+            "./public/images/projects/03_digital/digital_5.webp",
+            "./public/images/projects/03_digital/digital_6.webp",
+            "./public/images/projects/03_digital/digital_7.webp",
+            "./public/images/projects/03_digital/digital_8.webp",
+            "./public/images/projects/03_digital/digital_9.webp",
+            "./public/images/projects/03_digital/digital_10.webp",
+            "./public/images/projects/03_digital/digital_11.webp",
+            "./public/images/projects/03_digital/digital_12.webp",
+            "./public/images/projects/03_digital/digital_13.webp",
+
+            
 
         ]
     },
     {
         id: 9,
         images: [
-            "./public/images/projects/12_Chromoculars/Nitish-Jain_Chromoculars_1.webp",
-            "./public/images/projects/12_Chromoculars/Nitish-Jain_Chromoculars_2.webp",
-            "./public/images/projects/12_Chromoculars/Nitish-Jain_Chromoculars_3.webp",
-            "./public/images/projects/12_Chromoculars/Nitish-Jain_Chromoculars_4.webp",
-            "./public/images/projects/12_Chromoculars/Nitish-Jain_Chromoculars_5.webp",
-            "./public/images/projects/12_Chromoculars/Nitish-Jain_Chromoculars_6.webp",
+            "./public/images/projects/04_prints/prints_1.webp",
+            "./public/images/projects/04_prints/prints_2.webp",
+            "./public/images/projects/04_prints/prints_3.webp",
+            "./public/images/projects/04_prints/prints_4.webp",
+            "./public/images/projects/04_prints/prints_5.webp",
+            "./public/images/projects/04_prints/prints_6.webp",
+            "./public/images/projects/04_prints/prints_7.webp",
+            "./public/images/projects/04_prints/prints_8.webp",
+            "./public/images/projects/04_prints/prints_9.webp",
+            "./public/images/projects/04_prints/prints_10.webp",
+            "./public/images/projects/04_prints/prints_11.webp",
+            "./public/images/projects/04_prints/prints_12.webp",
+
+
         ]
     },
     {
@@ -358,9 +342,39 @@ document.querySelectorAll('.slider-wrapper').forEach(function(sliderWrapper, ind
         },
        
         1025: {
-          slidesPerView: 4
+          slidesPerView: 3.5
         }
       }
     });
   });
   
+
+
+
+
+
+   //  ========== MAKING THE CATEGORY SECTION STICKY AT THE TOP ON SCROLL ================ 
+  // Get the category section element
+  var categorySection = document.querySelector('.category_section');
+
+  // Calculate the offset top of the category section
+  var categorySectionOffsetTop = categorySection.offsetTop;
+
+  // Function to handle scroll event
+  function handleScroll() {
+    // Get the current scroll position
+    var scrollPosition = window.scrollY || window.pageYOffset;
+
+    // Check if the scroll position is greater than or equal to the category section's offset top
+    if (scrollPosition >= categorySectionOffsetTop) {
+      categorySection.classList.add('sticky'); // Add sticky class
+    } else {
+      categorySection.classList.remove('sticky'); // Remove sticky class
+    }
+  }
+
+  // Add scroll event listener to window
+  window.addEventListener('scroll', handleScroll);
+
+  // Initial call to handleScroll to check sticky state on page load
+  handleScroll();

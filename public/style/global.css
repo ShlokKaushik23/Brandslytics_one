@@ -3,15 +3,7 @@ body {
   line-height: normal;
 }
 
-/* :root {
-
-  --font-cabinetgrotesk: "Cabinet Grotesk Medium";
-  --font-cabinetgrotesk-reg: "Cabinet Grotesk Regular";
-  --font-cabinetgrotesk-light: "Cabinet Grotesk Light";
-  --font-satoshi-light: "Satoshi Light";
-  --font-satoshi-reg: "Satoshi";
-
- */
+:root {
 
 
   /* font sizes */
@@ -23,35 +15,15 @@ body {
   --font-size-xx: 3.5rem; /* 56px */
 
   /* Colors */
-  /* type 1 */
-  /* --color-primary: #f0cbf0;
-  --color-secondary: #15496a; */
-
-
+ 
     --color-primary: #f0f0f0;
   --color-secondary: #121212; 
-
-  /* type 2 */
-  /* --color-primary: #df4671;
-  --color-secondary: #f3e9cf; */
-
-  /* type 3 */
-  /* --color-primary: #eadaad;
-  --color-secondary: #dd5e3f; */
-
-  /* type 4 */
-  /* --color-primary: #203d3f;
-  --color-secondary: #32bc81; */
-
-  /* type 5 */
-  /* --color-primary: #cc483c;
-  --color-secondary: #f7c5bd; */
-
-   /* type 6 */
-   /* --color-primary: #fdecbb;
-   --color-secondary: #fa2a59; */
-
-
+  --color-active: #25303A;
+  --color-text: #A7A7A7;
+  --color-white: #fff;
+  --background-color: #EEEEEE;
+  --text-color: #1D3232;
+  --grey-color: #CBCBCB;
 
 
 
