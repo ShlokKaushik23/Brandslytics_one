@@ -1965,12 +1965,12 @@ main {
   .exp_container .content_section {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 16px;
   }
 
   .exp_container .content_section .heading {
     font-family: 'CabinetGrotesk-Light';
-    font-weight: normal;
+    font-weight: 500;
     font-size: 5vw;
     margin-bottom: 4px;
 
