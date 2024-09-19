@@ -127,27 +127,36 @@ const galleriesData = [
     {
         id: 10,
         images: [
-            "./public/images/projects/03_Water_Sprite/Nitish-Jain_Water-Sprite_1.webp",
-            "./public/images/projects/03_Water_Sprite/Nitish-Jain_Water-Sprite_2.webp",
-            "./public/images/projects/03_Water_Sprite/Nitish-Jain_Water-Sprite_3.webp",
-            "./public/images/projects/03_Water_Sprite/Nitish-Jain_Water-Sprite_4.webp",
-            "./public/images/projects/03_Water_Sprite/Nitish-Jain_Water-Sprite_5.webp",
-            "./public/images/projects/03_Water_Sprite/Nitish-Jain_Water-Sprite_6.webp",
-            "./public/images/projects/03_Water_Sprite/Nitish-Jain_Water-Sprite_7.webp",
-            "./public/images/projects/03_Water_Sprite/Nitish-Jain_Water-Sprite_8.webp",
-            "./public/images/projects/03_Water_Sprite/Nitish-Jain_Water-Sprite_9.webp",
-
-
+            "./public/images/projects/05_mori/mori_1.webp",
+            "./public/images/projects/05_mori/mori_2.webp",
+            "./public/images/projects/05_mori/mori_3.webp",
+            "./public/images/projects/05_mori/mori_4.webp",
+            "./public/images/projects/05_mori/mori_5.webp",
+            "./public/images/projects/05_mori/mori_6.webp",
+            "./public/images/projects/05_mori/mori_7.webp",
+            "./public/images/projects/05_mori/mori_8.webp",
+            "./public/images/projects/05_mori/mori_9.webp",
+            "./public/images/projects/05_mori/mori_10.webp",
+            "./public/images/projects/05_mori/mori_11.webp",
+            "./public/images/projects/05_mori/mori_12.webp",
+            "./public/images/projects/05_mori/mori_13.webp",
         ]
     },
     {
         id: 11,
         images: [
-            "./public/images/projects/04_Treasure/Nitish-Jain_Treasure_1.webp",
-            "./public/images/projects/04_Treasure/Nitish-Jain_Treasure_2.webp",
-            "./public/images/projects/04_Treasure/Nitish-Jain_Treasure_3.webp",
-            "./public/images/projects/04_Treasure/Nitish-Jain_Treasure_4.webp",
-            "./public/images/projects/04_Treasure/Nitish-Jain_Treasure_5.webp",
+            "./public/images/projects/06_wake/jorunalbook_1.webp",
+            "./public/images/projects/06_wake/jorunalbook_2.webp",
+            "./public/images/projects/06_wake/jorunalbook_3.webp",
+            "./public/images/projects/06_wake/jorunalbook_4.webp",
+            "./public/images/projects/06_wake/jorunalbook_5.webp",
+            "./public/images/projects/06_wake/jorunalbook_6.webp",
+            "./public/images/projects/06_wake/jorunalbook_7.webp",
+            "./public/images/projects/06_wake/jorunalbook_8.webp",
+            "./public/images/projects/06_wake/jorunalbook_9.webp",
+            "./public/images/projects/06_wake/jorunalbook_10.webp",
+
+
 
 
         ]
@@ -155,61 +164,19 @@ const galleriesData = [
     {
         id: 12,
         images: [
-            "./public/images/projects/07_Bellyofthebeast/Nitish-Jain_belly-of-the-beast_1.webp",
-            "./public/images/projects/07_Bellyofthebeast/Nitish-Jain_belly-of-the-beast_2.webp",
-            "./public/images/projects/07_Bellyofthebeast/Nitish-Jain_belly-of-the-beast_3.webp",
-            "./public/images/projects/07_Bellyofthebeast/Nitish-Jain_belly-of-the-beast_4.webp",
-            "./public/images/projects/07_Bellyofthebeast/Nitish-Jain_belly-of-the-beast_5.webp",
-            "./public/images/projects/07_Bellyofthebeast/Nitish-Jain_belly-of-the-beast_6.webp",
-            "./public/images/projects/07_Bellyofthebeast/Nitish-Jain_belly-of-the-beast_7.webp",
-
-
+            "./public/images/projects/07_simple/sim_1.jpeg",
+            "./public/images/projects/07_simple/sim_2.jpeg",
+            "./public/images/projects/07_simple/sim_3.jpeg",
         ]
     },
     {
         id: 13,
         images: [
-            "./public/images/projects/13_Midsummer/Nitish-Jain_A-Midsummer-Nights-dream_1.webp",
-            "./public/images/projects/13_Midsummer/Nitish-Jain_A-Midsummer-Nights-dream_2.webp",
-            "./public/images/projects/13_Midsummer/Nitish-Jain_A-Midsummer-Nights-dream_3.webp",
-            "./public/images/projects/13_Midsummer/Nitish-Jain_A-Midsummer-Nights-dream_4.webp",
-            "./public/images/projects/13_Midsummer/Nitish-Jain_A-Midsummer-Nights-dream_5.webp",
-
-        ]
-    },
-    {
-        id: 14,
-        images: [
-            "./public/images/projects/15_Origami cave/Nitish-Jain_India-International-Jewellery-Show_2014©Atelier-Anonyme-Design_1.webp",
-            "./public/images/projects/15_Origami cave/Nitish-Jain_India-International-Jewellery-Show_2014©Atelier-Anonyme-Design_2.webp",
-            "./public/images/projects/15_Origami cave/Nitish-Jain_India-International-Jewellery-Show_2014©Atelier-Anonyme-Design_3.webp",
-            "./public/images/projects/15_Origami cave/Nitish-Jain_India-International-Jewellery-Show_2014©Atelier-Anonyme-Design_4.webp",
-            "./public/images/projects/15_Origami cave/Nitish-Jain_India-International-Jewellery-Show_2014©Atelier-Anonyme-Design_5.webp",
-            "./public/images/projects/15_Origami cave/Nitish-Jain_India-International-Jewellery-Show_2014©Atelier-Anonyme-Design_6.webp",
-            "./public/images/projects/15_Origami cave/Nitish-Jain_India-International-Jewellery-Show_2014©Atelier-Anonyme-Design_7.webp",
-
-
-
-        ]
-    },
-    {
-        id: 15,
-        images: [
-            "./public/images/projects/14_tunnels/Nitish-Jain_India-International-Jewellery-Show_©Atelier-Anonyme-Design_1-.webp",
-            "./public/images/projects/14_tunnels/Nitish-Jain_India-International-Jewellery-Show_©Atelier-Anonyme-Design_2.webp",
-            "./public/images/projects/14_tunnels/Nitish-Jain_India-International-Jewellery-Show_©Atelier-Anonyme-Design_3.webp",
-            "./public/images/projects/14_tunnels/Nitish-Jain_India-International-Jewellery-Show_©Atelier-Anonyme-Design_4.webp",
-            "./public/images/projects/14_tunnels/Nitish-Jain_India-International-Jewellery-Show_©Atelier-Anonyme-Design_5.webp",
-            "./public/images/projects/14_tunnels/Nitish-Jain_India-International-Jewellery-Show_©Atelier-Anonyme-Design_6.webp",
-            "./public/images/projects/14_tunnels/Nitish-Jain_India-International-Jewellery-Show_©Atelier-Anonyme-Design_7.webp",
-            "./public/images/projects/14_tunnels/Nitish-Jain_India-International-Jewellery-Show_©Atelier-Anonyme-Design_8.webp",
-            "./public/images/projects/14_tunnels/Nitish-Jain_India-International-Jewellery-Show_©Atelier-Anonyme-Design_9.webp",
-            "./public/images/projects/14_tunnels/Nitish-Jain_India-International-Jewellery-Show_©Atelier-Anonyme-Design_10.webp",
-            "./public/images/projects/14_tunnels/Nitish-Jain_India-International-Jewellery-Show_©Atelier-Anonyme-Design_11.webp",
-            "./public/images/projects/14_tunnels/Nitish-Jain_India-International-Jewellery-Show_©Atelier-Anonyme-Design_12.webp",
-            "./public/images/projects/14_tunnels/Nitish-Jain_India-International-Jewellery-Show_©Atelier-Anonyme-Design_13.webp",
-
-
+            "./public/images/projects/08_godness/god_1.jpeg",
+            "./public/images/projects/08_godness/god_2.jpeg",
+            "./public/images/projects/08_godness/god_3.jpeg",
+            "./public/images/projects/08_godness/goddess_2.webp",
+            
         ]
     }
 

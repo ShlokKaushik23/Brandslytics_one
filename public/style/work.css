@@ -1541,6 +1541,8 @@ main {
     display: block;
     font-size: 2.25vw;
     margin: 6px 0 12px 0;
+  font-family: 'Satoshi-Medium';
+
   }
 
   .project_container .filterDiv .project_section .project_description {
@@ -2082,6 +2084,8 @@ main {
     font-size: 4vw;
     margin: 0px 0 6px 0;
     padding: 4px 8px;
+  font-family: 'Satoshi-Medium';
+
   }
 
 
