@@ -108,8 +108,8 @@ const galleriesData = [
     {
         id: 9,
         images: [
-            "./public/images/projects/04_prints/prints_1.webp",
             "./public/images/projects/04_prints/prints_2.webp",
+            "./public/images/projects/04_prints/prints_1.webp",
             "./public/images/projects/04_prints/prints_3.webp",
             "./public/images/projects/04_prints/prints_4.webp",
             "./public/images/projects/04_prints/prints_5.webp",
