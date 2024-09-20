@@ -31,6 +31,9 @@ body {
   /* Image Height  */
   --image-height: calc(100vh);
   --image-height-tablet: 540px;
+  
+  --w-500:500;
+  --w-600:600;
 
 
 }

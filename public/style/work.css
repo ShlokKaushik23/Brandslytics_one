@@ -2111,7 +2111,7 @@ main {
     /* padding: 1rem 0; */
     padding: 0;
     z-index: 101;
-    font-weight: var(--w-600);
+    font-weight: 600;
     display: none;
 
   }
@@ -2216,8 +2216,8 @@ main {
   }
 
   .category_section .category_button .btn {
-    outline: 1px solid var(--text-color);
-    color: var(--text-color);
+    outline: 1px solid #121212;
+    color: #121212;
     opacity: 1;
     font-size: 2.5vw;
     font-weight: var(--w-500);
@@ -2263,8 +2263,8 @@ main {
   }
 
   .category_section .category_button .bottom_button .btn.cancel {
-    background-color: var(--background-color);
-    color: var(--text-color);
+    background-color: #121212;
+    color: #fff;
     outline: none !important;
     font-family: 'Satoshi-Medium';
   }
@@ -2404,7 +2404,7 @@ main {
   }
 
   .project_container .filterDiv .project_section .project_details .project_timeline .year {
-    color: var(--gray-color);
+    color: var(--grey-color);
     border-right: 1px solid var(--grey-color);
     padding: 0 6px 0 0;
     font-weight: 550;
@@ -2494,17 +2494,22 @@ main {
   }
 
   .gallery-container {
-    margin: 12px 0 0 0px;
+    margin: 12px 0 0 0;
+    overflow-x: auto; /* Ensure the container scrolls horizontally */
+    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling for iPhones */
+    scrollbar-width: thin; /* Makes scrollbars thinner (for Firefox) */
+    scrollbar-color: #121212 #EEEEEE;
   }
 
   .gallery-container::-webkit-scrollbar {
-    height: 4px;
-    border-radius: 0px;
+    height: 4px; /* Set the height for horizontal scrollbar */
+  background: #EEEEEE; /* Scrollbar track */
+  margin-top: 4px;
   }
 
   .gallery-container::-webkit-scrollbar-track {
-    background: #EEEEEE;
-    border-radius: 0px;
+    background-color: #121212; /* Scrollbar thumb color */
+  border-radius: 0px;
 
 
   }
@@ -2516,7 +2521,7 @@ main {
   }
 
   .image_section img {
-    width: calc(100% - 12px);
+    width:auto;
     height: 240px;
     -ms-flex-negative: 0;
         flex-shrink: 0;

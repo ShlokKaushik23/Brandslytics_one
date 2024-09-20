@@ -2,7 +2,7 @@ const galleriesData = [
     {
         id: 1,
         images: [
-           
+
             "./public/images/projects/metal/metaljewellery_1.webp",
             "./public/images/projects/metal/metaljewellery_2.webp",
             "./public/images/projects/metal/metaljewellery_3.webp",
@@ -45,17 +45,17 @@ const galleriesData = [
     {
         id: 4,
         images: [
-           "./public/images/projects/02_drapping/drape_32.webp",
+            "./public/images/projects/02_drapping/drape_32.webp",
             "./public/images/projects/02_drapping/drape_30.webp",
             "./public/images/projects/02_drapping/drape_26.webp",
             "./public/images/projects/02_drapping/drape_27.webp",
-        
+
         ]
     },
     {
         id: 5,
         images: [
-           "./public/images/projects/02_drapping/drape_33.webp",
+            "./public/images/projects/02_drapping/drape_33.webp",
             "./public/images/projects/02_drapping/drape_35.webp",
             "./public/images/projects/02_drapping/drape_36.webp",
             "./public/images/projects/02_drapping/drape_37.webp",
@@ -65,7 +65,7 @@ const galleriesData = [
     {
         id: 6,
         images: [
-           "./public/images/projects/02_drapping/drape_4.webp",
+            "./public/images/projects/02_drapping/drape_4.webp",
             "./public/images/projects/02_drapping/drape_3.webp",
             "./public/images/projects/02_drapping/drape_2.webp",
             "./public/images/projects/02_drapping/drape_1.webp",
@@ -81,7 +81,7 @@ const galleriesData = [
             "./public/images/projects/02_drapping/drape_22.webp",
             "./public/images/projects/02_drapping/drape_23.webp",
             "./public/images/projects/02_drapping/drape_24.webp",
-         
+
         ]
     },
     {
@@ -101,7 +101,7 @@ const galleriesData = [
             "./public/images/projects/03_digital/digital_12.webp",
             "./public/images/projects/03_digital/digital_13.webp",
 
-            
+
 
         ]
     },
@@ -176,7 +176,7 @@ const galleriesData = [
             "./public/images/projects/08_godness/god_2.jpeg",
             "./public/images/projects/08_godness/god_3.jpeg",
             "./public/images/projects/08_godness/goddess_2.webp",
-            
+
         ]
     }
 
@@ -192,6 +192,14 @@ document.addEventListener("DOMContentLoaded", () => {
                 ${galleryData.images.map((src, index) => `<a href="${src}" data-index="${index}"><img src="${src}" alt=""></a>`).join('')}
             </div>
         `;
+
+        // Ensure images load correctly
+        const imag = section.querySelectorAll('img');
+        imag.forEach(image => {
+            image.onload = () => {
+                image.style.display = 'block';  // Ensure proper rendering after load
+            };
+        });
 
         lightGallery(section.querySelector('.image_section'), {
             download: false,
@@ -259,10 +267,10 @@ document.addEventListener("DOMContentLoaded", function () {
     var popupBox = document.querySelector('.popup-box');
     var popupClose = document.querySelector('.popup-close');
 
-    popupBtns.forEach(function(btn) {
+    popupBtns.forEach(function (btn) {
         btn.addEventListener('click', function (e) {
             popupWrap.style.display = 'block';
-            setTimeout(function() {
+            setTimeout(function () {
                 popupBox.classList.remove('transform-out');
                 popupBox.classList.add('transform-in');
             }, 1); // Slight delay to ensure the display change is applied
@@ -282,66 +290,66 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 // Select all slider wrapper elements
-document.querySelectorAll('.slider-wrapper').forEach(function(sliderWrapper, index) {
+document.querySelectorAll('.slider-wrapper').forEach(function (sliderWrapper, index) {
     // Create unique pagination and navigation selectors for each slider
     const swiper = new Swiper(sliderWrapper, {
-      loop: true,
-      grabCursor: true,
-      spaceBetween: 30,
-      // Pagination bullets
-      pagination: {
-        el: sliderWrapper.querySelector('.swiper-pagination'),
-        clickable: true,
-        dynamicBullets: true
-      },
-      // Navigation arrows
-      navigation: {
-        nextEl: sliderWrapper.querySelector('.swiper-button-next'),
-        prevEl: sliderWrapper.querySelector('.swiper-button-prev'),
-      },
-      // Responsive breakpoints
-      breakpoints: {
-        0: {
-          slidesPerView: 1.5
+        loop: true,
+        grabCursor: true,
+        spaceBetween: 30,
+        // Pagination bullets
+        pagination: {
+            el: sliderWrapper.querySelector('.swiper-pagination'),
+            clickable: true,
+            dynamicBullets: true
         },
-        768: {
-          slidesPerView: 2
+        // Navigation arrows
+        navigation: {
+            nextEl: sliderWrapper.querySelector('.swiper-button-next'),
+            prevEl: sliderWrapper.querySelector('.swiper-button-prev'),
         },
-       
-        1025: {
-          slidesPerView: 3.5
+        // Responsive breakpoints
+        breakpoints: {
+            0: {
+                slidesPerView: 1.5
+            },
+            768: {
+                slidesPerView: 2
+            },
+
+            1025: {
+                slidesPerView: 3.5
+            }
         }
-      }
     });
-  });
-  
+});
 
 
 
 
 
-   //  ========== MAKING THE CATEGORY SECTION STICKY AT THE TOP ON SCROLL ================ 
-  // Get the category section element
-  var categorySection = document.querySelector('.category_section');
 
-  // Calculate the offset top of the category section
-  var categorySectionOffsetTop = categorySection.offsetTop;
+//  ========== MAKING THE CATEGORY SECTION STICKY AT THE TOP ON SCROLL ================ 
+// Get the category section element
+var categorySection = document.querySelector('.category_section');
 
-  // Function to handle scroll event
-  function handleScroll() {
+// Calculate the offset top of the category section
+var categorySectionOffsetTop = categorySection.offsetTop;
+
+// Function to handle scroll event
+function handleScroll() {
     // Get the current scroll position
     var scrollPosition = window.scrollY || window.pageYOffset;
 
     // Check if the scroll position is greater than or equal to the category section's offset top
     if (scrollPosition >= categorySectionOffsetTop) {
-      categorySection.classList.add('sticky'); // Add sticky class
+        categorySection.classList.add('sticky'); // Add sticky class
     } else {
-      categorySection.classList.remove('sticky'); // Remove sticky class
+        categorySection.classList.remove('sticky'); // Remove sticky class
     }
-  }
+}
 
-  // Add scroll event listener to window
-  window.addEventListener('scroll', handleScroll);
+// Add scroll event listener to window
+window.addEventListener('scroll', handleScroll);
 
-  // Initial call to handleScroll to check sticky state on page load
-  handleScroll();
+// Initial call to handleScroll to check sticky state on page load
+handleScroll();
