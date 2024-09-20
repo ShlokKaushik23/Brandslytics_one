@@ -164,8 +164,9 @@ const galleriesData = [
     {
         id: 12,
         images: [
-            "./public/images/projects/07_simple/sim_1.jpeg",
             "./public/images/projects/07_simple/sim_2.jpeg",
+            "./public/images/projects/07_simple/sim_1.jpeg",
+
             "./public/images/projects/07_simple/sim_3.jpeg",
         ]
     },

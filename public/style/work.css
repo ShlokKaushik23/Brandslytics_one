@@ -193,7 +193,7 @@ main {
 .header {
   /* position: fixed; */
   position: absolute;
-  height: 4em;
+  height: 4.5em;
   padding: 0 48px;
   width: 100%;
   background: transparent;
