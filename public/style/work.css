@@ -2429,8 +2429,7 @@ main {
     /* line-height: 2.5vw; */
     font-size: 5.5vw;
     line-height: 5.5vw;
-    font-weight: 600;
-
+    font-weight: 700;
     font-family: 'CabinetGrotesk-Light';
   }
 
@@ -2475,7 +2474,7 @@ main {
     margin-top: 12px;
     padding-right: 12px;
     font-size: 4vw;
-    line-height: 4vw;
+    line-height: 4.2vw;
     /* line-height: 16.7px; */
   }
 
@@ -2495,29 +2494,24 @@ main {
 
   .gallery-container {
     margin: 12px 0 0 0;
-    overflow-x: auto; /* Ensure the container scrolls horizontally */
-    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling for iPhones */
-    scrollbar-width: thin; /* Makes scrollbars thinner (for Firefox) */
-    scrollbar-color: #121212 #EEEEEE;
   }
 
   .gallery-container::-webkit-scrollbar {
-    height: 4px; /* Set the height for horizontal scrollbar */
-  background: #EEEEEE; /* Scrollbar track */
-  margin-top: 4px;
+    height: 4px;
+    border-radius: 10px;
   }
-
+  
   .gallery-container::-webkit-scrollbar-track {
-    background-color: #121212; /* Scrollbar thumb color */
-  border-radius: 0px;
-
-
+    background: #f3f3f3;
+    border-radius: 0px;
+  
+    
   }
-
+  
   .gallery-container::-webkit-scrollbar-thumb {
     background-color: #121212;
     border-radius: 0px;
-
+    
   }
 
   .image_section img {
