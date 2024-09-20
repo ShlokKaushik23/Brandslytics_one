@@ -11,6 +11,7 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
 }
+
 body::-webkit-scrollbar {
   display: none;
 }
@@ -22,20 +23,22 @@ body::-webkit-scrollbar {
 
 /* You can do the same for links */
 a {
--webkit-tap-highlight-color: transparent !important;
--webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+  -webkit-tap-highlight-color: transparent !important;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
 }
 
-#more {display: none;}
+#more {
+  display: none;
+}
 
 
 
 
 
 
-*{
+* {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
@@ -64,7 +67,7 @@ footer {
   background-color: #121212;
 }
 
- .footer_container .footer_section {
+.footer_container .footer_section {
   padding: 0px 48px;
   height: 100%;
   display: -webkit-box;
@@ -72,42 +75,45 @@ footer {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
+
 .footer_container .footer_section .section_top {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  -webkit-box-pack:center;
-      -ms-flex-pack:center;
-          justify-content:center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-bottom: 80px;
 }
+
 .footer_container .footer_section .section_top .section_details {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
+
 .footer_container .footer_section .section_top .section_details .logo {
   margin-bottom: 32px;
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
 }
 
 .footer_container .footer_section .section_top .footer_menu {
@@ -115,19 +121,19 @@ footer {
   width: 100%;
 }
 
-.footer_container .footer_section .section_top .footer_menu  ul {
+.footer_container .footer_section .section_top .footer_menu ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
-.footer_container .footer_section .section_top .footer_menu  ul li{
+.footer_container .footer_section .section_top .footer_menu ul li {
   list-style: none;
   margin-right: 32px;
   font-family: Arial, Helvetica, sans-serif;
@@ -137,40 +143,41 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack:center;
-      -ms-flex-pack:center;
-          justify-content:center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   /* gap: 6px; */
 }
 
-.footer_container .footer_section .section_top .footer_menu  ul li a{
- 
+.footer_container .footer_section .section_top .footer_menu ul li a {
+
   display: -webkit-box;
- 
+
   display: -ms-flexbox;
- 
+
   display: flex;
-  -webkit-box-pack:center;
-      -ms-flex-pack:center;
-          justify-content:center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   gap: 12px;
   color: #fff;
 }
-.footer_container .footer_section .section_top .footer_menu  ul li svg {
+
+.footer_container .footer_section .section_top .footer_menu ul li svg {
   width: 32px;
   height: 32px;
 }
@@ -184,6 +191,7 @@ footer {
   margin-bottom: 16px;
   height: 21px
 }
+
 .footer_container .footer_section .section_top .section_email .email_input {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -192,11 +200,12 @@ footer {
 }
 
 .footer_container .footer_section .section_top .section_email .email_input input {
-   min-width: 300px;
-   height: 45px;
-   border-radius: 0;
-   border: 0;
+  min-width: 300px;
+  height: 45px;
+  border-radius: 0;
+  border: 0;
 }
+
 .footer_container .footer_section .section_top .section_email .email_input input::-webkit-input-placeholder {
   font-family: Arial, Helvetica, sans-serif;
   font-size: var(--font-size-sm);
@@ -204,6 +213,7 @@ footer {
   padding: 12px;
   font-weight: normal;
 }
+
 .footer_container .footer_section .section_top .section_email .email_input input::-moz-placeholder {
   font-family: Arial, Helvetica, sans-serif;
   font-size: var(--font-size-sm);
@@ -211,6 +221,7 @@ footer {
   padding: 12px;
   font-weight: normal;
 }
+
 .footer_container .footer_section .section_top .section_email .email_input input:-ms-input-placeholder {
   font-family: Arial, Helvetica, sans-serif;
   font-size: var(--font-size-sm);
@@ -218,6 +229,7 @@ footer {
   padding: 12px;
   font-weight: normal;
 }
+
 .footer_container .footer_section .section_top .section_email .email_input input::-ms-input-placeholder {
   font-family: Arial, Helvetica, sans-serif;
   font-size: var(--font-size-sm);
@@ -225,6 +237,7 @@ footer {
   padding: 12px;
   font-weight: normal;
 }
+
 .footer_container .footer_section .section_top .section_email .email_input input::placeholder {
   font-family: Arial, Helvetica, sans-serif;
   font-size: var(--font-size-sm);
@@ -232,7 +245,8 @@ footer {
   padding: 12px;
   font-weight: normal;
 }
-.footer_container .footer_section .section_top .section_email .email_input button{
+
+.footer_container .footer_section .section_top .section_email .email_input button {
   width: 85px;
   height: 45px;
   border-radius: 0;
@@ -247,7 +261,7 @@ footer {
 
 }
 
-.footer_container .footer_section .hr{
+.footer_container .footer_section .hr {
   width: 100%;
   border: 1px solid var(--color-white);
   margin-bottom: 32px;
@@ -259,18 +273,18 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   color: var(--color-white);
   font-size: var(--font-size-sm);
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer_container .footer_section .section_bottom .socials {
- display: -webkit-box;
- display: -ms-flexbox;
- display: flex;
- gap: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
 }
 
 .footer_container .footer_section .section_bottom .socials svg {
@@ -289,12 +303,12 @@ footer {
 /* For Tablet View */
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 
-.container.main {
-  padding: 16px 16px;
-}
- 
+  .container.main {
+    padding: 16px 16px;
+  }
 
-    /* ========== FOOTER SECTION ============= */
+
+  /* ========== FOOTER SECTION ============= */
 
   .footer_container .footer_section .section_top {
     display: -webkit-box;
@@ -302,29 +316,30 @@ footer {
     display: flex;
     width: 100%;
     -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     margin: 48px 0;
   }
-  .footer_container .footer_section .section_top .footer_menu  ul {
+
+  .footer_container .footer_section .section_top .footer_menu ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-bottom: 32px;
   }
 
-  .footer_container .footer_section .section_top .footer_menu  ul li {
-    font-size: 16px ;
+  .footer_container .footer_section .section_top .footer_menu ul li {
+    font-size: 16px;
   }
-  
+
   .footer_container .footer_section .section_top .section_email .email_heading {
-    font-size: 16px ;
+    font-size: 16px;
     margin-bottom: 16px;
-  } 
+  }
 
 }
 
@@ -332,70 +347,74 @@ footer {
   .container.main {
     padding: 16px 16px;
   }
-  
-  .flexbox{
+
+  .flexbox {
     display: block;
   }
 
   /* ======== POP UP ========= */
 
   .popup-box {
-    padding:20px 20px;
+    padding: 20px 20px;
     width: 320px;
-    
+
   }
 
   .close-btn {
-    width:24px;
-    height:24px;
+    width: 24px;
+    height: 24px;
   }
+
   .close-btn svg {
     width: 14px;
     height: 14px;
   }
- 
+
   /* ============= FOOTER SECTION ============= */
   .footer_container .footer_section .section_top {
-    
+
     margin: 24px 0;
+    display: flex;
   }
- .footer_container {
+
+  .footer_container {
     display: block;
     width: 100%;
     height: 640px;
     background-color: #121212;
   }
+
   .footer_container .footer_section {
-    padding: 0 4.688vw;
+    padding: 0;
   }
+
   .footer_container .footer_section .section_top {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+  justify-content: center;
     /* margin-bottom: 80px; */
-    gap: 16px;
+    /* gap: 16px; */
+    margin: 12px 0;
+    padding: 0;
   }
-  .footer_container .footer_section .section_top .footer_menu  ul{
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    
-  }  
 
-  .footer_container .footer_section .section_top .footer_menu  ul li {     
-    font-size: 14px ;
-    
+  .footer_container .footer_section .section_top .footer_menu .footer_list {
+    display: flex;
+    flex-direction: column;
+  
+    width: 100%;
+    height: 100%;
+  }
+
+  .footer_container .footer_section .section_top .footer_menu ul li {
+    font-size: 14px;
+    display: block;
+    padding: 0;margin: 0;
+ 
     margin-bottom: 30px;
-  } 
+  }
 
   .footer_container .footer_section .section_top .section_email .email_input {
     display: -webkit-box;
@@ -403,8 +422,8 @@ footer {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     gap: 16px;
     margin-bottom: 16px;
   }
@@ -416,11 +435,12 @@ footer {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     gap: 24px;
   }
- }
+}
+
