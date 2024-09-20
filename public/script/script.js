@@ -204,6 +204,10 @@ document.addEventListener("DOMContentLoaded", () => {
         lightGallery(section.querySelector('.image_section'), {
             download: false,
             fullscreen: false,
+            plugins: [lgZoom],  // Enable zoom plugin
+            zoom: true,         // Enable zoom functionality
+            scale: 1,           // Set the zoom scale (default is 1)
+            actualSize: true    // Allows zooming to the image's actual size
         });
 
         const imageSection = section.querySelector('.image_section');
