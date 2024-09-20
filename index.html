@@ -23,6 +23,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css"
     integrity="sha512-kwJUhJJaTDzGp6VTPBbMQWBFUof6+pv0SM3s8fo+E6XnPmVmtfwENK0vHYup3tsYnqHgRDoBDTJWoq7rnQw2+g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css" />
+  <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
   <style>
     .lg-toolbar {
       background-color: transparent !important;
@@ -31,10 +34,38 @@
     .fancybox-slide--current {
       background-color: black !important;
     }
+
+    [data-simplebar] .simplebar-track {
+      opacity: 1 !important;
+      /* Always keep the scrollbar visible */
+    }
+
+    [data-simplebar] .simplebar-scrollbar:before {
+      background-color: #121212;
+      /* Custom scrollbar thumb color */
+    }
+
+    /* Ensure track and scrollbar are always visible */
+    [data-simplebar] .simplebar-track.simplebar-horizontal {
+      height: 8px;
+      /* Horizontal scrollbar height */
+    }
+
+    [data-simplebar] .simplebar-track.simplebar-vertical {
+      width: 8px;
+      /* Vertical scrollbar width */
+    }
+
+    /* Adjust scrollbar thumb to always be visible */
+    [data-simplebar] .simplebar-scrollbar {
+      visibility: visible !important;
+      /* Ensure scrollbar is always visible */
+      background: #121212;
+      /* Scrollbar thumb color */
+    }
   </style>
 
-<link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css" />
-<script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+
 
   <!-- ========== FANCY BOX CSSS =========== -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
