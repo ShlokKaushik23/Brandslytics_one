@@ -100,9 +100,6 @@ const galleriesData = [
             "./public/images/projects/03_digital/digital_11.webp",
             "./public/images/projects/03_digital/digital_12.webp",
             "./public/images/projects/03_digital/digital_13.webp",
-
-
-
         ]
     },
     {
@@ -166,7 +163,6 @@ const galleriesData = [
         images: [
             "./public/images/projects/07_simple/sim_2.jpeg",
             "./public/images/projects/07_simple/sim_1.jpeg",
-
             "./public/images/projects/07_simple/sim_3.jpeg",
         ]
     },
@@ -225,10 +221,7 @@ document.addEventListener("DOMContentLoaded", () => {
         lightGallery(section.querySelector('.image_section'), {
             download: false,
             fullscreen: false,
-            plugins: [lgZoom],  // Enable zoom plugin
-            zoom: true,         // Enable zoom functionality
-            scale: 1,           // Set the zoom scale (default is 1)
-            actualSize: true    // Allows zooming to the image's actual size
+            
         });
 
         const imageSection = section.querySelector('.image_section');
