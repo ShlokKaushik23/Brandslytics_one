@@ -153,9 +153,6 @@ const galleriesData = [
             "./public/images/projects/06_wake/jorunalbook_9.webp",
             "./public/images/projects/06_wake/jorunalbook_10.webp",
 
-
-
-
         ]
     },
     {

@@ -1884,10 +1884,8 @@ main {
   }
 
   .project_container .filterDiv .project_section .image_container {
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
-    margin: 0;
+    
+    /* margin: 0; */
     padding-left: 0;
     margin-bottom: 24px;
     margin-top: 24px;
@@ -1898,11 +1896,11 @@ main {
     margin: 0 0 0 0px;
   }
 
-  .project_container .filterDiv .project_section .image_container a {
+  /* .project_container .filterDiv .project_section .image_container a {
     margin: 0;
     padding: 0;
     height: 0;
-  }
+  } */
 
 
 
@@ -2539,10 +2537,8 @@ main {
 
   .image_section img {
     width: calc(100% - 12px);
-
     height: 240px;
-    -ms-flex-negative: 0;
-        flex-shrink: 0;
+   
     gap: 30px !important;
     border-radius: 0px;
   
