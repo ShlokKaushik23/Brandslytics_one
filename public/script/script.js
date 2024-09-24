@@ -108,18 +108,18 @@ const galleriesData = [
     {
         id: 9,
         images: [
+            "./public/images/projects/04_prints/prints_7.webp",
+            "./public/images/projects/04_prints/prints_6.webp",
+            "./public/images/projects/04_prints/prints_12.webp",
             "./public/images/projects/04_prints/prints_2.webp",
             "./public/images/projects/04_prints/prints_1.webp",
             "./public/images/projects/04_prints/prints_3.webp",
             "./public/images/projects/04_prints/prints_4.webp",
             "./public/images/projects/04_prints/prints_5.webp",
-            "./public/images/projects/04_prints/prints_6.webp",
-            "./public/images/projects/04_prints/prints_7.webp",
             "./public/images/projects/04_prints/prints_8.webp",
             "./public/images/projects/04_prints/prints_9.webp",
             "./public/images/projects/04_prints/prints_10.webp",
             "./public/images/projects/04_prints/prints_11.webp",
-            "./public/images/projects/04_prints/prints_12.webp",
 
 
         ]
@@ -173,11 +173,31 @@ const galleriesData = [
     {
         id: 13,
         images: [
-            "./public/images/projects/08_godness/god_1.jpeg",
-            "./public/images/projects/08_godness/god_2.jpeg",
-            "./public/images/projects/08_godness/god_3.jpeg",
-            "./public/images/projects/08_godness/goddess_2.webp",
+            "./public/images/projects/08_godness/Goddess_4.webp",
+            "./public/images/projects/08_godness/Goddess_1.webp",
+            "./public/images/projects/08_godness/Goddess_2.webp",
+            "./public/images/projects/08_godness/Goddess_3.webp",
 
+        ]
+    },
+    {
+        id: 14,
+        images: [
+            "./public/images/projects/09_rewild/rewild_1.webp",
+            "./public/images/projects/09_rewild/rewild_2.webp",
+            "./public/images/projects/09_rewild/rewild_3.webp",
+            "./public/images/projects/09_rewild/rewild_4.webp",
+            "./public/images/projects/09_rewild/rewild_5.webp",
+            "./public/images/projects/09_rewild/rewild_6.webp",
+            "./public/images/projects/09_rewild/rewild_7.webp",
+            "./public/images/projects/09_rewild/rewild_8.webp",
+            "./public/images/projects/09_rewild/rewild_9.webp",
+            "./public/images/projects/09_rewild/rewild_10.webp",
+            "./public/images/projects/09_rewild/rewild_11.webp",
+            "./public/images/projects/09_rewild/rewild_12.webp",
+            "./public/images/projects/09_rewild/rewild_13.webp",
+            "./public/images/projects/09_rewild/rewild_14.webp",
+            "./public/images/projects/09_rewild/rewild_15.webp",
         ]
     }
 
@@ -300,6 +320,11 @@ document.querySelectorAll('.slider-wrapper').forEach(function (sliderWrapper, in
     const swiper = new Swiper(sliderWrapper, {
         loop: true,
         grabCursor: true,
+        autoplay: {
+            delay: 1000, // Adjust the delay time (3000ms = 3 seconds)
+            disableOnInteraction: false,
+        },
+        speed: 800,
         spaceBetween: 30,
         // Pagination bullets
         pagination: {
@@ -322,11 +347,13 @@ document.querySelectorAll('.slider-wrapper').forEach(function (sliderWrapper, in
             },
 
             1025: {
-                slidesPerView: 3.5
+                slidesPerView: 4
             }
         }
     });
 });
+
+
 
 
 

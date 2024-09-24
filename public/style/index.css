@@ -274,7 +274,7 @@ footer {
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: center;
   color: var(--color-white);
   font-size: var(--font-size-sm);
   font-family: Arial, Helvetica, sans-serif;
