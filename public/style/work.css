@@ -2538,7 +2538,8 @@ main {
   }
 
   .image_section img {
-    width:auto;
+    width: calc(100% - 12px);
+
     height: 240px;
     -ms-flex-negative: 0;
         flex-shrink: 0;
